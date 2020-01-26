@@ -20,7 +20,7 @@ PPG (Photoplethysmogram) Sensor
 ---
 A photoplethysmogram (PPG) is an optically obtained plethysmogram that can be used to detect blood volume changes in the microvascular bed of tissue.
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/PPG%20Sensorpng" width=400/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/PPG%20Sensorpng" width=400/>
 </p>
 
 The working principle of the PPG sensor is based on the emission of infrared light by an LED which penetrates the skin and blood vessels. This light is captured by the detector to measure the blood stream. The results of the PPG signal depend primarily on the flow of blood and oxygen to the capillary vessels in each heartbeat.
@@ -28,7 +28,7 @@ The working principle of the PPG sensor is based on the emission of infrared lig
 The advantages that a PPG sensor has over an ECG machine is that it is small and portable, wheras the disadvantage is that it is not as precise as an ECG machine. 
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/PPG_Sensor_2.jpeg" width=400/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/PPG_Sensor_2.jpeg" width=400/>
 </p>
 
 To connect the PPG sensor to the Arduino board, connect the pins to one of the analog pin on the board and to the 5V output pin and to the ground pin on the board.
@@ -38,22 +38,22 @@ Moving Average Filter
 ---
 The mathematical expression for a moving average filter in the time domain and Z domain are:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 2/Pictures/Equations/MVA eqn.png" width=400/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Equations/MVA eqn.png" width=400/>
 </p>
 
 The Transfer function can also be found from the above equations :
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 2/Pictures/Equations/MVA eqn.png" width=400/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Equations/MVA eqn.png" width=400/>
 </p>
 
 The Pole Zero Plot of the MVA filter is given by:
 <p float="left" align = "center">
-<img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Poles%26zeros%20of%20mva.png" width=600/>
+<img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Poles%26zeros%20of%20mva.png" width=600/>
 </p>
 
 Magnitude and Phase Responses can be obtained as follows:
 <p float="left" align = "center">
-<img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Mag%26phase%20of%20mva.png" width=800/>
+<img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Mag%26phase%20of%20mva.png" width=800/>
 </p>
 
 From the Magnitude v/s Frequency plot of the MVA Filter we can say that its a Low pass Filter.
@@ -63,20 +63,20 @@ First Order Derivative
 ---
 The mathematical expression for a First Order Derivative Filter in the time domain and Z domain are:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Equations/Three%20point%20diff%20eqn.png" width=400/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Equations/Three%20point%20diff%20eqn.png" width=400/>
 </p>
 
 Poles and Zeroes are given by:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Poles%20and%20zeros%20of%201st%20order%20diff.png" width=600/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Poles%20and%20zeros%20of%201st%20order%20diff.png" width=600/>
 </p>
 
 Magnitude and Phase Responses of a First Order Derivative function is given by:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Equations/First%20Order.png" width=400/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Equations/First%20Order.png" width=400/>
 </p>
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Mag%26phase%20of%20first%20order%20difference.png" width=800/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Mag%26phase%20of%20first%20order%20difference.png" width=800/>
 </p>
 
 From the Magnitude Response of the First Order Derivative Filter we can conlcude that its a High pass Filter.
@@ -86,20 +86,20 @@ Three Point Central Difference
 ---
 The mathematical expression for a First Order Derivative Filter in the time domain and Z domain are:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Equations/First%20Order%20diff%20eqn.png" width=400/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Equations/First%20Order%20diff%20eqn.png" width=400/>
 </p>
 
 Poles and Zeroes are given by:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/poles%20and%20zeros%20of%20threepoint%20diff.png width=600/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/poles%20and%20zeros%20of%20threepoint%20diff.png width=600/>
 </p>
 
 Magnitude and Phase Responses of a Three point Central Difference Filter is given by:
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Equations/Three%20Point.png" width=400/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Equations/Three%20Point.png" width=400/>
 </p>
 <p float="left" align = "center">
- <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Mag%20and%20phase%20of%20three%20point%20diff.png" width=800/>
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab 1 (b)/Pictures/Mag%20and%20phase%20of%20three%20point%20diff.png" width=800/>
 </p>
 
 From the Magnitude Response of the First Order Derivative Filter we can conlcude that its a Band-Pass pass Filter.
