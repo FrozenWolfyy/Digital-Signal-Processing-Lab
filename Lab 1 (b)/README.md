@@ -1,6 +1,6 @@
 <h1>Digital Signal Processing </h1>
 </br>
-<h3>Lab 2</h3>
+<h3>Lab 1 (b)</h3>
 </br>
 
 **AIM**
@@ -160,12 +160,14 @@ Serial.println(y[i]-y[i-2]);
 
 
 ```
----
-Plot from arduino code
----
 
+**Plot from arduino code**
 <p float="left" align = "center">
  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%201%20(b)/Pictures/Arduino%20Plots/Data%20from%20PPG%20sensor.png" width=800/>
+</p>
+
+<p float="left" align = "center">
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%201%20(b)/Pictures/Derivative.png" width=800/>
 </p>
 
 
@@ -243,7 +245,13 @@ Serial.println(y[i]-y[i-2]+125);
 }
 ```
 **Plots**
+<p float="left" align = "center">
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%201%20(b)/Pictures/Arduino%20Plots/ECG_sig1%20Filters.png" width=800/>
+</p>
 
+<p float="left" align = "center">
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%201%20(b)/Pictures/Arduino%20Plots/ECG_sig2%20Filters.png" width=800/>
+</p>
 
 ---
 Baseline Removal
