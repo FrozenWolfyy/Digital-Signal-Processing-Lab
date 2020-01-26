@@ -307,6 +307,10 @@ Serial.println(x[i]-y[i]);
 }
 ```
 **Plot**
+<p float="left" align = "center">
+ <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%201%20(b)/Pictures/Arduino%20Plots/Baseline%20Removal%20PPG%20sensor.png" width=800/>
+</p>
+
 **Arduino Code for ECG signal**
 ```cpp
 
