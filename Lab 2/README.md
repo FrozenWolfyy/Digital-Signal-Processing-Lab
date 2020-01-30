@@ -259,29 +259,30 @@ void loop() {
 **Plots**
 1. Original Data and Data passed through a MVA filter.
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/raw%20and%20mva.png" width="600"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/raw%20and%20mva.png" width="800"/>
 </p>
 
 2. Original data and acf 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/ACF_raw.png" width="600"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/ACF_raw.png" width="800"/>
 </p>
 
 3. Smoothened data and acf
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/ACF_mva.png" width="600"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/ACF_mva.png" width="800"/>
 </p>
 
 **The Pulse Rate(PR) obtained is :**
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/BPM%20values.png" width="300"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/BPM%20values.png" width="800"/>
 </p>
 
-**Error Calculation**
+**Error Calculation : **
 
 
 
-**Conclusion**
+Conclusion
+----
 As we can see from the above calculation that acf is more reliable for capturing any patterns in signals as the error rate between Noisy signal and Noise less is negligible.
 
 **Arduino Code for calculating Pitch Frequency**
