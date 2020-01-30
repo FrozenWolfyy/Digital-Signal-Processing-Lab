@@ -12,6 +12,17 @@ Find the links below.
 2. [Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%202/Arduino%20Codes)
 3. [Plots.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%202/Pictures/Plots)
 
+AutoCorrelation Function
+-----
+
+The mathematical expression for Normalised auto correlation function is given by : 
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Eqns/Autocorrelation%2BFunction%2B(ACF).jpg" width="480"/>
+</p>
+<p align = "center"> <i>Autocorelation of a sine wave.</i></p>
+
+
+
 
 Codes
 -----
