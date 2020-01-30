@@ -17,9 +17,13 @@ AutoCorrelation Function
 
 The mathematical expression for Normalised auto correlation function is given by : 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Eqns/Autocorrelation%2BFunction%2B(ACF).jpg" width="480"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Eqns/Autocorrelation%2BFunction%2B(ACF).jpg" width="300"/>
 </p>
-<p align = "center"> <i>Autocorelation of a sine wave.</i></p>
+
+**Properties of Autocorrelation function**
+1. If the Original Signal has a period of T, then the autocorrelation function is also periodic with the same period.
+2. The autocorrelation function is an even function i.e. it is symmetric about the Y-axis.
+3. The value of the acf function is maximum at the origin, which is also equal to the Energy of the signal.
 
 
 
@@ -28,6 +32,12 @@ Codes
 -----
 
 **Arduino Code for finding BPM**
+The Pulse rate of an individual is calculated by calculating the Time period of the acf signal. This is done by finding the 2nd maxima of the autocorrelation signal. The sampling frequency multiplied by the distance between the 1st maxima (at origin) and the calculated 2nd maxima gives us the Time Period of the signal.
+**Beat Period** is (index at second maxima)*Fs.
+**Beats per minute** is (60)/Beat period.
+
+Inorder to reduce the computational complexity of our programme we take a block of size 500 samples. This data is split into four blocks and bpm is calculated by two methods one of which is my using the raw data and the other is by passing our data through a MVA filter (Low Pass filter) the noise components are removed. The error between the two BPM's obtained is calculated.
+
 ```cpp
 
 
@@ -247,5 +257,21 @@ void loop() {
 ```
 
 **Plots**
+1. Original Data and Data passed through a MVA filter.
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/raw%20and%20mva.png" width="300"/>
+</p>
 
+2. Original data and acf 
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/ACF_raw.png" width="300"/>
+</p>
 
+3. Smoothened data and acf
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/ACF_mva.png" width="300"/>
+</p>
+
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Eqns/Autocorrelation%2BFunction%2B(ACF).jpg" width="300"/>
+</p>
