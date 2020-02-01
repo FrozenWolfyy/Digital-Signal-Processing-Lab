@@ -32,9 +32,9 @@ Codes
 -----
 
 **Arduino Code for finding BPM**
-The Pulse rate of an individual is calculated by calculating the Time period of the acf signal. This is done by finding the 2nd maxima of the autocorrelation signal. The sampling frequency multiplied by the distance between the 1st maxima (at origin) and the calculated 2nd maxima gives us the Time Period of the signal.
-**Beat Period** is (index at second maxima)*Fs.
-**Beats per minute** is (60)/Beat period.
+The Pulse rate of an individual is calculated by calculating the Time period of the acf signal. This is done by finding the 2nd maxima of the autocorrelation signal. The sampling frequency multiplied by the distance between the 1st maxima (at origin) and the calculated 2nd maxima gives us the Time Period of the signal.</br>
+**Beat Period** is (index at second maxima)*Fs.</br>
+**Beats per minute** is (60)/Beat period.</br>
 
 Inorder to reduce the computational complexity of our programme we take a block of size 500 samples. This data is split into four blocks and bpm is calculated by two methods one of which is my using the raw data and the other is by passing our data through a MVA filter (Low Pass filter) the noise components are removed. The error between the two BPM's obtained is calculated.
 
