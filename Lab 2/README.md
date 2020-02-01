@@ -430,5 +430,5 @@ void loop() {
 3. Final Result
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/Pitch%20Frequency.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/Pitch%20Frequency.png" width="400"/>
 </p>
