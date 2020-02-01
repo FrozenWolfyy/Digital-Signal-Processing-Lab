@@ -277,7 +277,9 @@ void loop() {
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/BPM%20values.png" width="800"/>
 </p>
 
-**Error Calculation : **
+**Error Calculation :**
+
+The error in BPM calculated between the smoothened signal and original signal is found to be 
 
 
 
