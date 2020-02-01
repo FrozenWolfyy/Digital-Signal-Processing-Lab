@@ -283,9 +283,7 @@ The error in BPM calculated between the smoothened signal and original signal is
 
 
 
-Conclusion
-----
-As we can see from the above calculation that acf is more reliable for capturing any patterns in signals as the error rate between Noisy signal and Noise less is negligible.
+
 
 **Arduino Code for calculating Pitch Frequency**
 ```cpp
@@ -434,3 +432,7 @@ void loop() {
 <p float="left" align = "center">
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/Pitch%20Frequency.png" width="400"/>
 </p>
+
+Conclusion
+----
+As we can see from the above calculation that acf is more reliable for capturing any patterns in signals as the error rate between Noisy signal and Noise less is negligible.
