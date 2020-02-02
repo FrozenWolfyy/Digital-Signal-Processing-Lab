@@ -18,9 +18,12 @@ float r_raw[4][500];
 float r_mva[4][500];
 int l=8;
 int count =0;
+<<<<<<< HEAD
 double error=0;
 float bpm_raw;
 float bpm_mva;
+=======
+>>>>>>> master
 
 void setup() {
   // put your setup code here, to run once:
@@ -98,7 +101,10 @@ for(int i=zcr_raw;i<500;i++)
     }
   }
 
+<<<<<<< HEAD
 bpm_raw=(60*100)/peak_index_raw;
+=======
+>>>>>>> master
 
 
 Serial.print("BPM calculated for raw data in ");
@@ -159,6 +165,54 @@ for(int m=0;m<500;m++)              //calculating the acf
 
 
 
+<<<<<<< HEAD
+=======
+  
+                                                        //Zero Corssings
+  for(int i=0;i<500;i++)
+  {
+    if(r_mva[k][i]*r_mva[k][i+1]<0)
+    {
+      zcr_mva=i+1;
+      break;
+      }
+    }
+
+
+
+//Serial.println(zcr_raw);/
+
+
+//To find the peak
+for(int i=zcr_mva;i<500;i++)
+{
+  if(max_mva<r_mva[k][i])
+  {
+    max_mva=r_raw[k][i];
+    peak_index_mva=i;
+    }
+  }
+
+
+
+Serial.print("BPM calculated after passing through MVA for ");
+Serial.print(k);
+Serial.print(" block is :");
+Serial.println(100*60/peak_index_mva);
+
+//Serial.println(60*100/peak_index_mva);
+
+//Serial.println("MVA_signal ACF_MVA_normalised ");
+
+
+//    for(int i=0;i<500;i++)
+//  {
+//   Serial.print(data_mva[i]+1000);
+//   Serial.print(',');
+//   Serial.println(r_mva[k][i]/r_mva[k][0]*100);
+//    }
+  
+>>>>>>> master
   
                                                         //Zero Corssings
   for(int i=0;i<500;i++)
