@@ -279,9 +279,7 @@ void loop() {
 
 **Error Calculation :**
 
-The error in BPM calculated between the smoothened signal and original signal is found to be 
-
-
+The error in BPM calculated between the smoothened signal and original signal is found to be 3.334%.
 
 
 
