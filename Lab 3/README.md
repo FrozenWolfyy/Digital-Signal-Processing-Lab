@@ -1,18 +1,19 @@
-LAB 2
+LAB 3
 ======
 
 
 Aim 
 -----
-1. To calculate the Beats per Minute(BPM) from a PPG signal.
-2. To calculate the Pitch Frequency of a speech signal recorded.
+1. Find magnitue spectrum of a signal sampled at 100 Hz using DFT algorithm.
+    a. Use matrix representation of DFT to compute DFT coefficients for a given signal with duration of 3 sec.
+2. Compute period of a signal and compare with autocorrelation based period estimation method.
 
 Find the links below.
-1. [Lab Sheet and Data.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%202/Lab%20data)
-2. [Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%202/Arduino%20Codes)
-3. [Plots.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%202/Pictures/Plots)
+1. [Lab Sheet and Data.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Lab%20Data)
+2. [Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Arduino%20Codes)
+3. [Plots.]()
 
-AutoCorrelation Function
+Discrete Fourier Transform
 -----
 
 The mathematical expression for Normalised auto correlation function is given by : 
