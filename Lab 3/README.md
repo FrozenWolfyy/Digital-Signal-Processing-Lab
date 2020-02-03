@@ -255,25 +255,23 @@ void loop() {
 
 
 **Plots**
-1. Original Speech Signal.
+1. Original Signal.
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/Speech%20Data.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/Signal.png" width="800"/>
 </p>
 
 
-2.Acf of the speech Signal.
+2.Acf of the PPG Signal.
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/Acf%20of%20speech%20signal.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/ACF.png" width="800"/>
 </p>
 
-3. Final Result
+3. Final Result (BPM).
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Plots/Pitch%20Frequency.png" width="400"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/BPM_acf_final.png" width="400"/>
 </p>
 
-Conclusion
-----
-As we can see from the above calculation that acf is more reliable for capturing any patterns in signals as the error rate between Noisy signal and Noise less is negligible.
+
