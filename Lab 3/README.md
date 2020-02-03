@@ -13,18 +13,32 @@ Find the links below.
 2. [Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Arduino%20Codes)
 3. [Plots.]()
 
-Discrete Fourier Transform
+Discrete Time Fourier Transform
 -----
 
-The mathematical expression for Normalised auto correlation function is given by : 
+The mathematical expression for finding the DTFT co-efficients is given by : 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%202/Pictures/Eqns/Autocorrelation%2BFunction%2B(ACF).jpg" width="300"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20coeff.png" width="300"/>
 </p>
 
-**Properties of Autocorrelation function**
-1. If the Original Signal has a period of T, then the autocorrelation function is also periodic with the same period.
-2. The autocorrelation function is an even function i.e. it is symmetric about the Y-axis.
-3. The value of the acf function is maximum at the origin, which is also equal to the Energy of the signal.
+The Analysis equation is given by:
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/Analysis%20DFT.png" width="300"/>
+</p>
+
+The Synthesis equation is given by:
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/Synthesis.png" width="300"/>
+</p>
+
+The output of a signal on which DTFT is performed looks like.
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20signla.png" width="300"/>
+</p>
+
+
+**Properties of DTFT**
+1. 
 
 
 
