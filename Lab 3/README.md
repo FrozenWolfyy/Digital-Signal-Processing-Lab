@@ -174,7 +174,15 @@ void loop() {
 ```
 
 **Plots**
+1. Original Signal.
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/Signal.png" width="800"/>
+</p>
 
+2. Magnitude Spectra of the signal.
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/MagSpectra.png" width="800"/>
+</p>
 
 
 
