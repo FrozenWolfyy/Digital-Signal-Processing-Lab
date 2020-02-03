@@ -10,13 +10,14 @@ Aim
 
 Find the links below.
 1. [Lab Sheet and Data.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Lab%20Data)
-2. [Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Arduino%20Codes)
-3. [Plots.]()
+2. [Arduino Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Arduino%20Codes)
+3. [Matlab Codes.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Matlab)
+4. [Plots.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Images)
 
-Discrete Time Fourier Transform
+Discrete Fourier Transform
 -----
 
-The mathematical expression for finding the DTFT co-efficients is given by : 
+The mathematical expression for finding the DFT co-efficients is given by : 
 <p float="left" align = "center">
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20coeff.png" width="300"/>
 </p>
@@ -31,14 +32,14 @@ The Synthesis equation is given by:
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/Synthesis.png" width="300"/>
 </p>
 
-The output of a signal on which DTFT is performed looks like.
+The output of a signal on which DFT is performed looks like.
 <p float="left" align = "center">
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20signla.png" width="300"/>
 </p>
 
 
-**Properties of DTFT**
-1. 
+**Properties of DFT**
+1.
 
 
 
@@ -46,12 +47,16 @@ The output of a signal on which DTFT is performed looks like.
 Codes
 -----
 
-**Arduino Code for finding BPM**
-The Pulse rate of an individual is calculated by calculating the Time period of the acf signal. This is done by finding the 2nd maxima of the autocorrelation signal. The sampling frequency multiplied by the distance between the 1st maxima (at origin) and the calculated 2nd maxima gives us the Time Period of the signal.</br>
-**Beat Period** is (index at second maxima)*Fs.</br>
-**Beats per minute** is (60)/Beat period.</br>
+**Arduino Code for finding BPM using DFT**
 
-Inorder to reduce the computational complexity of our programme we take a block of size 500 samples. This data is split into four blocks and bpm is calculated by two methods one of which is my using the raw data and the other is by passing our data through a MVA filter (Low Pass filter) the noise components are removed. The error between the two BPM's obtained is calculated.
+The Pulse Rate of a person can be calculated from DFT by finding the fundamental frequency component of a signal which can be obtained by calculating the magnitude spectra of a signal.
+To find the magnitude spectra of the signal calculated the DFT matrix and multiplied it with the given signal data.
+
+The dft matrix of length 3 looks like :
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20signla.png" width="300"/>
+</p>
+
+**Code for calculating BPM through DFT**
 
 ```cpp
 
