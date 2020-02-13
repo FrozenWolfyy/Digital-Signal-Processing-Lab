@@ -176,7 +176,7 @@ void loop() {
 **Matlab Code**
 
 **DFT Matrix**
-```
+```Matlab
 function [W] = DFT_matrix(n)
 for k = 0:n-1
     for c = 0:n-1
@@ -185,7 +185,7 @@ for k = 0:n-1
 end
 ```
 **Matlab Code for DFT calculation**
-```
+```Matlab
 clc;clear all; close all;
 t  = 0:1/25:2.96;
 y=xlsread('Data');
