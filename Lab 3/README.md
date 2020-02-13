@@ -323,7 +323,6 @@ void loop() {
 
 Conclusion
 -----
-The Pulse rate calculated by the DFT method is found to be 80 whereas the pulse rate calculated through the acf method is found to be equal to 71.43.
-1.**Pulse Rate through DFT : 80bpm.**</br>
+1.**Pulse Rate through DFT : 140bpm.**</br>
 2.**Pulse Rate through ACF : 71.43bpm.**</br>
 3. **Error : 10.71%** </br>
