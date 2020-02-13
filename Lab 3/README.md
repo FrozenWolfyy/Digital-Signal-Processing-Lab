@@ -184,6 +184,11 @@ void loop() {
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/MagSpectra.png" width="800"/>
 </p>
 
+3. Plots from Matlab
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/Matlab_dft.png" width="800"/>
+</p>
+
 
 
 **Arduino Code for Calculation of BPM using ACF**
