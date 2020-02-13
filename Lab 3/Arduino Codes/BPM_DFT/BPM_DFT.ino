@@ -14,29 +14,23 @@ float index_1=0;
 float m2=0;
 float index_2=0;
 double sum;
-float count=0;
-int l=2;
+float count=8;
+float l=4;
 
 float p[75];
 
 void setup() {
 Serial.begin(9600);
 
-//for(int i=0;i<75;i++)
-//Serial.println(x[i]);         //printing data
+for(int i=0;i<75;i++)
+Serial.println(x[i]);         //printing data
 
 for(int i=0;i<75;i++)
 {
-   sum=0;                    // initialize a variable to store the sum value.
-  count=0;
+   sum=0;                    // initialize a variable to store the sum value
   for(int k=0;k<l;k++)
   {
    sum=sum+x[i-k];                   // sum of the past l values.
-   
-   if(x[i-k]!=0)                     // finding number of non zero values.
-   {
-    count++;
-    }
   } 
 p[i]=sum/count;                   // averaging them.
 }
@@ -95,14 +89,15 @@ for(int i=len/2;i<len;i++)
   index_2=i;
   } 
   }  
+//
+//for(int i=0;i<75;i++)
+//Serial.println(Mag_spec[i]);
 
-for(int i=0;i<75;i++)
-Serial.println(Mag_spec[i]);
-  
+ 
 //Serial.print(index_1); 
 //Serial.print(','); 
 //Serial.println(index_2); 
-//  
+////  
 
 }
 

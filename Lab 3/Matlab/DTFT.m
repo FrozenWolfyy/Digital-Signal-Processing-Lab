@@ -8,13 +8,12 @@ X = W1*y';
 MX = abs(X);
 k = 1:n;
 f = fs*k/n;
-subplot(4,1,1);plot(t,y);
-subplot(4,1,2);plot(k,MX);axis tight;
-subplot(4,1,3);plot(f,MX);
+subplot(3,1,1);plot(t,y);
+subplot(3,1,2);plot(k,MX);axis tight;
+subplot(3,1,3);plot(f,MX);
 
 xr = conj(W1)*X/length(MX);
 xfft = ifft(X);
-subplot(4,1,4);plot(t,xr);fft);
 figure();
 subplot(2,1,1);plot(t,y);
 subplot(2,1,2);plot(t,xfft);
