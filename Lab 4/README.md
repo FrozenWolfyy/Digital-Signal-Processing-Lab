@@ -1,12 +1,13 @@
-LAB 3
+LAB 4
 ======
 
 
 Aim 
 -----
-1. Find magnitue spectrum of a signal sampled at 100 Hz using DFT algorithm.
-    a. Use matrix representation of DFT to compute DFT coefficients for a given signal with duration of 3 sec.
-2. Compute period of a signal and compare with autocorrelation based period estimation method.
+1. Find magnitue spectrum of a signal by using both FFT and DFT in arduino.
+2. To compute the Pulse Rate of a signal using DFT.
+3. To compute the pulse rate of the PPG signal using an autocorrelation function.
+4. To separate the Respiratory component from the PPG signal by using inverse DFT transform.
 
 Find the links below.
 1. [Lab Sheet and Data.](https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/tree/master/Lab%203/Lab%20Data)
