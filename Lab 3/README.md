@@ -4,8 +4,8 @@ LAB 3
 
 Aim 
 -----
-1. Find magnitue spectrum of a signal sampled at 100 Hz using DFT algorithm.
-    a. Use matrix representation of DFT to compute DFT coefficients for a given signal with duration of 3 sec.
+1. Find magnitue spectrum of a signal sampled at 100 Hz using DFT algorithm.</br>
+   ;nbsp a. Use matrix representation of DFT to compute DFT coefficients for a given signal with duration of 3 sec.
 2. Compute period of a signal and compare with autocorrelation based period estimation method.
 
 Find the links below.
