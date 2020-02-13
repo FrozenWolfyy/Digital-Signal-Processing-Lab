@@ -323,6 +323,6 @@ void loop() {
 
 Conclusion
 -----
-1.**Pulse Rate through DFT : 140bpm.**</br>
-2.**Pulse Rate through ACF : 71.43bpm.**</br>
-3. **Error : 10.71%** </br>
+**Pulse Rate through DFT : 80bpm.**</br>
+**Pulse Rate through ACF : 71.43bpm.**</br>
+**Error : 10.71%** </br>
