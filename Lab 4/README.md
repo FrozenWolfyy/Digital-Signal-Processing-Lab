@@ -4,11 +4,12 @@ LAB 4
 
 Aim 
 -----
+
 1. Find magnitue spectrum of a signal by using FFT.
 3. To separate the Respiratory component from the PPG signal by using FFT transform. </br>
 
 On two seperate platforms namely :</br>
-a. MATLAB
+a. MATLAB </br>
 b. Arduino.
 
 Find the links below.
