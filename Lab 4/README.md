@@ -100,7 +100,7 @@ The Dominant frequency component in the respiratory signal is also calculated wh
 
 3. Respiratory rate calculated.
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Breathing%20rate.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Breathing%20rate.png" width="400"/>
 </p>
 
 Conclusion
