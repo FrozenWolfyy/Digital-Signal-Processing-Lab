@@ -342,6 +342,6 @@ fprintf('RESPIRATION RATE: %f \n', rate);
 Conclusion
 -----
 1. The respiration rate obtained through arduino is found to be : 21.09.
-2. The respiration rate obtained through MATLAB is found to be :
+2. The respiration rate obtained through MATLAB is found to be : 16.
 
 
