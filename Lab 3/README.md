@@ -4,7 +4,7 @@ LAB 3
 
 Aim 
 -----
-1. Find magnitue spectrum of a signal sampled at 100 Hz using DFT algorithm.
+1. Find magnitue spectrum of a signal sampled at 100 Hz using DFT algorithm.</br>
     a. Use matrix representation of DFT to compute DFT coefficients for a given signal with duration of 3 sec.
 2. Compute period of a signal and compare with autocorrelation based period estimation method.
 
@@ -38,9 +38,6 @@ The output of a signal on which DFT is performed looks like.
 </p>
 
 
-**Properties of DFT**
-1.
-
 
 
 
@@ -52,7 +49,7 @@ Codes
 The Pulse Rate of a person can be calculated from DFT by finding the fundamental frequency component of a signal which can be obtained by calculating the magnitude spectra of a signal.
 To find the magnitude spectra of the signal calculated the DFT matrix and multiplied it with the given signal data.
 
-The dft matrix of length 3 looks like :
+The dft matrix of length N :
 <p float="left" align = "center">
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20matrix.png" width="300"/>
 </p>
@@ -324,4 +321,8 @@ void loop() {
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/BPM_acf_final.png" width="400"/>
 </p>
 
-
+Conclusion
+-----
+**Pulse Rate through DFT : 80bpm.**</br>
+**Pulse Rate through ACF : 71.43bpm.**</br>
+**Error : 10.71%** </br>
