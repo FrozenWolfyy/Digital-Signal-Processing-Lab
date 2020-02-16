@@ -50,13 +50,13 @@ Fast Fourier is used to reduce the computational complexity of normal Discrete F
 The mathematical expression for calculating individual frequency components of a signal using the FFT transform is given by :
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20matrix.png" width="300"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/FFT_eqn1.png" width="300"/>
 </p>
 
 which can be recursively written as :
 
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Equations/DFT%20matrix.png" width="300"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/FFT_eqn2.png" width="300"/>
 </p>
 
 Codes
@@ -87,24 +87,25 @@ The Dominant frequency component in the respiratory signal is also calculated wh
 
 
 **Plots**
-1. Original Signal.
+
+1. Magnitude Spectra of the signal.
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/Signal.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/FFT.png" width="800"/>
 </p>
 
-2. Magnitude Spectra of the signal.
+2. Respiratory signal.
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/MagSpectra.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Respiratory_signal.png" width="800"/>
 </p>
 
-3. Plots from Matlab
+3. Respiratory rate calculated.
 <p float="left" align = "center">
-  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%203/Images/Plots/Matlab_dft.png" width="800"/>
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Breathing%20rate.png" width="800"/>
 </p>
 
 Conclusion
 -----
-1. The respiration rate obtained through arduino is found to be :
+1. The respiration rate obtained through arduino is found to be : 21.09.
 2. The respiration rate obtained through MATLAB is found to be :
 
 
