@@ -42,24 +42,24 @@ for(int i=2;i<=26;i++)                                              // loop for 
 
 
  
-FFT.ComplexToMagnitude(vReal, vImag, samples);                    //after this function we get magnitude of FFT stores in vReal and imag values of FFT in vImag
-
-for(int i=0;i<128;i++)
-{
-  Serial.println(vReal[i]);                                        //plots magnitude spectra of complete signal
-}
+//FFT.ComplexToMagnitude(vReal, vImag, samples);                    //after this function we get magnitude of FFT stores in vReal and imag values of FFT in vImag
+//
+//for(int i=0;i<128;i++)
+//{
+//  Serial.println(vReal[i]);                                        //plots magnitude spectra of complete signal
+//}
 
 
  
 
- for(int i=2;i<26;i++)                                            //finding frequency component where magnitude is max for resp signal
-{
-  if(maxvalue<vReal[i])
-  {
-    maxvalue=vReal[i];
-    k=i;
-  }
-}
+// for(int i=2;i<26;i++)                                            //finding frequency component where magnitude is max for resp signal
+//{
+//  if(maxvalue<vReal[i])
+//  {
+//    maxvalue=vReal[i];
+//    k=i;
+//  }
+//}
 
 //Serial.print("The respiratory rate calculated is :");
 //Serial.println(k*10/samples*60);                                  //resp beats per minute
