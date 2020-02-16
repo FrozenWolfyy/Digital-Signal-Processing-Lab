@@ -329,7 +329,12 @@ fprintf('RESPIRATION RATE: %f \n', rate);
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Respiratory_signal.png" width="800"/>
 </p>
 
-3. Respiratory rate calculated.
+3. Matlab plot
+<p float="left" align = "center">
+  <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Matlab%20plot.png" width="800"/>
+</p>
+
+4. Respiratory rate calculated.
 <p float="left" align = "center">
   <img src="https://github.com/FrozenWolfyy/Digital-Signal-Processing-Lab/blob/master/Lab%204/Images/Breathing%20rate.png" width="400"/>
 </p>
